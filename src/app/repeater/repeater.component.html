@@ -1,0 +1,41 @@
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <!--<th>Post id</th>-->
+    <!--<th>Task id</th>-->
+    <!--<th>Se id</th>-->
+    <!--<th>Loc id</th>-->
+    <!--<th>Key id</th>-->
+    <th>Post key</th>
+    <th>Post site</th>
+    <th>Result datetime</th>
+    <th>Result position</th>
+    <th>Result url</th>
+    <th>Result title</th>
+    <th>Result snippet</th>
+    <th>Results count</th>
+    <th>Result se check url</th>
+
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of list">
+    <td>{{item.id}}</td>
+    <!--<td>{{item.post_id}}</td>-->
+    <!--<td>{{item.task_id}}</td>-->
+    <!--<td>{{item.se_id}}</td>-->
+    <!--<td>{{item.loc_id}}</td>-->
+    <!--<td>{{item.key_id}}</td>-->
+    <td>{{item.post_key}}</td>
+    <td>{{item.post_site}}</td>
+    <td>{{item.result_datetime}}</td>
+    <td>{{item.result_position}}</td>
+    <td>{{item.result_url}}</td>
+    <td>{{item.result_title}}</td>
+    <td>{{item.result_snippet}}</td>
+    <td>{{item.results_count}}</td>
+    <td>{{item.result_se_check_url}}</td>
+  </tr>
+  </tbody>
+</table>
